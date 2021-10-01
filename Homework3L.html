@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homework Lesson 2</title>
+    <style>
+        .fixed {
+            position: fixed;
+        }
+        .non-point {
+            list-style-type: none;
+        }
+        .down {
+            margin-top: 150px;
+        }
+        .color {
+            color: rgb(201, 0, 0);
+        }
+        .border {
+            border: 1px solid;
+        
+        }
+        .right {
+            padding: 5px 10px 5px 5px;
+            margin-left: 85%;
+        }
+        .footer {
+            margin: 30px 0px 5px 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h3>
+                <nav align = center>
+                    <a href="#shop">Shopping list</a> |
+                    <a href="#adress">Internet addresses</a> |
+                    <a href="#media">Media Content</a>
+                </nav>
+             </h3>
+        </div>
+    </header>
+    <main>
+            <section>
+                <div>
+                    <aside class="fixed right border">
+                        <span>Содержимое страницы:</span>
+                            <nav>
+                                <ol>
+                                    <li>
+                                        <a href="#shop">Shopping list</a>
+                                    </li>
+                                    <li>
+                                        <a href="#adress">Internet addresses</a>
+                                    </li>
+                                    <li>
+                                        <a href="#media">Media Content</a>
+                                    </li>
+                                </ol>
+                            </nav>
+                    </aside>
+                </div>
+            </section>
+<section class="down">
+    <h2 class="color">(First task)</h2>
+        <h2 id="shop">Shopping list</h2>
+            <div>
+                <ul class="non-point">
+                    <li>
+                        <label for="fish">
+                        <img src="img/FishFood.jpg" alt="Fish" width="190"><br>
+                                Вкусная, сочная, аппетитная рыба.
+                        </label>
+                        <input type="checkbox" id="fish">
+                    </li>
+                    <li>
+                         <label for="pasta">
+                        <img src="img/PastaFood.jpg" alt="Pasta" width="190"><br>
+                                Вполне питательные макароны.
+                        </label>
+                        <input type="checkbox" id="pasta">
+                    </li>
+                    <li>
+                        <label for="boots">
+                        <img src="img/BootsFood.jpg" alt="Boots" width="190"><br>
+                                Вкуснейшие тапочки по голандски!
+                        </label>
+                        <input type="checkbox" id="boots">
+                    </li>
+                    <li>
+                        <label for="nails">
+                        <img src="img/NailsFood.jpg" alt="Nails" width="190"><br>
+                                Изысканные жаренные гвозди.
+                        </label>
+                        <input type="checkbox" id="nails">
+                    </li>
+                    <li>
+                        <label for="pizza">
+                        <img src="img/PizzaFood.jpg" alt="Pizza" width="190"><br>
+                                Какая-то невероятная дичь.
+                        </label>
+                        <input type="checkbox" id="pizza">
+                    </li>
+                </ul>
+            </div>
+</section>
+<section id="adress">
+    <h2 class="color">(Second Task)</h2>
+        <div>
+            <span># Адреса Интернета</span>
+                <ol>
+                    <li><a href="pages/HW1part.html">Введение</a></li>
+                    <li><a href="pages/HW2part.html">Универсальные идентификаторы</a></li>
+                    <li><a href="pages/HW3part.html">Три основных класса IP-адресов</a></li>
+                    <li><a href="pages/HW4part.html">Адреса описывают сетевые соединения</a></li>
+                    <li><a href="pages/HW5part.html">Сетевые и широковещательные адреса</a></li>
+                    <li><a href="pages/HW6part.html">Ограниченное широковещание</a></li>
+                </ol>
+        </div>
+</section>
+<section id="media">
+    <h2>Media Content</h2>
+    <div>
+        <iframe width="345" height="235" src="https://www.youtube.com/embed/lh6fjglTduc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="345" height="235" src="https://www.youtube.com/embed/fmn1ZyRcDJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="345" height="235" src="https://www.youtube.com/embed/zm8KrDJ4Axw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <span>Created by Vasilkov Sergey</span>
+    </footer>
+</body>
+</html>
